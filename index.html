@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food Website Design</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <a href="#" class="logo"><i class="fas fa-utensils"></i>resto.</a>
+      <nav class="navbar">
+        <a class="active" href="#home">Home</a>
+        <a href="#dishes">Dishes</a>
+        <a href="#about">About</a>
+        <a href="#menu">Menu</a>
+        <a href="#review">Review</a>
+        <a href="#order">Order</a>
+      </nav>
+
+      <div class="icons">
+        <i class="fas fa-bars" id="menu-bars"></i>
+        <i class="fas fa-search" id="search-icon"></i>
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-shopping-cart"></a>
+      </div>
+    </header>
+
+    <form action="" id="search-form">
+      <input
+        type="search"
+        placeholder="search here..."
+        name=""
+        id="search-box"
+      />
+      <label for="search-box" class="fas fa-search"></label>
+      <i class="fas fa-times" id="close"></i>
+    </form>
+
+    <section class="home" id="home">
+      <div class="swiper mySwiper">
+        <div class="wrapper swiper-wrapper">
+          <div class="item swiper-slide">
+            <div class="item swiper-slide">
+              <img src="images\main-pic.jpg" alt="" />
+              <div class="content">
+                <span>Our special dish</span>
+                <h3>spicy noodles</h3>
+                <p>
+                  lorem ipsum dolor ist amet conster adipisicing elit. Sit natus
+                  dolor cumque
+                </p>
+                <a href="#" class="btn">Order Now</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="item swiper-slide">
+            <div class="item swiper-slide">
+              <img src="images\main-pic.jpg" alt="" />
+              <div class="content">
+                <span>Our special dish</span>
+                <h3>fried chicken</h3>
+                <p>
+                  lorem ipsum dolor ist amet conster adipisicing elit. Sit natus
+                  dolor cumque
+                </p>
+                <a href="#" class="btn">Order Now</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <div class="item swiper-slide">
+              <img src="images\main-pic.jpg" alt="" />
+              <div class="content">
+                <span>Our special dish</span>
+                <h3>hot pizza</h3>
+                <p>
+                  lorem ipsum dolor ist amet conster adipisicing elit. Sit natus
+                  dolor cumque
+                </p>
+                <a href="#" class="btn">Order Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <section class="dishes" id="dishes">
+      <h3 class="sub-heading">Our dishes</h3>
+      <h1 class="heading">Popular dishes</h1>
+      <div class="box-container">
+        <div class="box">
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-eye"></a>
+          <img src="images\main-pic.jpg" alt="" height="290px" width="280px" />
+          <h3>Tasty food</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <span>$15.99</span>
+          <a href="#" class="btn">Add to cart</a>
+        </div>
+
+        <div class="box">
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-eye"></a>
+          <img src="images\main-pic.jpg" alt="" height="290px" width="270px" />
+          <h3>Tasty food</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <span>$15.99</span>
+          <a href="#" class="btn">Add to cart</a>
+        </div>
+
+        <div class="box">
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-eye"></a>
+          <img src="images\main-pic.jpg" alt="" height="290px" width="270px" />
+          <h3>Tasty food</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <span>$15.99</span>
+          <a href="#" class="btn">Add to cart</a>
+        </div>
+
+        <div class="box">
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-eye"></a>
+          <img src="images\main-pic.jpg" alt="" height="290px" width="270px" />
+          <h3>Tasty food</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <span>$15.99</span>
+          <a href="#" class="btn">Add to cart</a>
+        </div>
+
+        <div class="box">
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-eye"></a>
+          <img src="images\main-pic.jpg" alt="" height="290px" width="270px" />
+          <h3>Tasty food</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <span>$15.99</span>
+          <a href="#" class="btn">Add to cart</a>
+        </div>
+
+        <div class="box">
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-eye"></a>
+          <img src="images\main-pic.jpg" alt="" height="290px" width="270px" />
+          <h3>Tasty food</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <span>$15.99</span>
+          <a href="#" class="btn">Add to cart</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <h3 class="sub-heading">About us</h3>
+      <h1 class="heading">Why choose us?</h1>
+      <div class="row">
+        <div class="image">
+          <img src="images\main-pic.jpg" alt="" />
+        </div>
+        <div class="content">
+          <h3>Best food in the country</h3>
+          <p>
+            Lorem ipsum dolor sit ndkand kfdakj ajnfan ajff. ajjdn jdaijf
+            ajbfbbfak jafa, ajjfa.
+          </p>
+          <p>
+            Contrary to popular belief, Lorem Ipsum is not simply random text.
+            It has roots in a piece of classical Latin literature from 45 BC,
+            making it over 2000 years old. Richard McClintock, a Latin professor
+            at Hampden-Sydney College in Virginia
+          </p>
+          <div class="icons-container">
+            <div class="icons">
+              <i class="fas fa-shipping-fast"></i>
+              <span>Free delivery</span>
+            </div>
+            <div class="icons">
+              <i class="fas fa-dollar-sign"></i>
+              <span>Easy payments</span>
+            </div>
+            <div class="icons">
+              <i class="fas fa-headset"></i>
+              <span>24/7 service</span>
+            </div>
+          </div>
+          <a href="#" class="btn">Learn more</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="menu" id="menu">
+      <h3 class="sub-heading">Our menu</h3>
+      <h1 class="heading">today's speciality</h1>
+
+      <div class="box-container">
+        <div class="box">
+          <div class="image">
+            <img src="images\main-pic.jpg" alt="" />
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>Delicious food</h3>
+            <p>
+              There are many variations of passages of Lorem Ipsum available,
+              but the majority have suffered alteration
+            </p>
+            <a href="#" class="btn">Add to cart</a>
+            <span class="price">$12.99</span>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="images\main-pic.jpg" alt="" />
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>Delicious food</h3>
+            <p>
+              There are many variations of passages of Lorem Ipsum available,
+              but the majority have suffered alteration
+            </p>
+            <a href="#" class="btn">Add to cart</a>
+            <span class="price">$12.99</span>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="images\main-pic.jpg" alt="" />
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>Delicious food</h3>
+            <p>
+              There are many variations of passages of Lorem Ipsum available,
+              but the majority have suffered alteration
+            </p>
+            <a href="#" class="btn">Add to cart</a>
+            <span class="price">$12.99</span>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="images\main-pic.jpg" alt="" />
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>Delicious food</h3>
+            <p>
+              There are many variations of passages of Lorem Ipsum available,
+              but the majority have suffered alteration
+            </p>
+            <a href="#" class="btn">Add to cart</a>
+            <span class="price">$12.99</span>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="images\main-pic.jpg" alt="" />
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>Delicious food</h3>
+            <p>
+              There are many variations of passages of Lorem Ipsum available,
+              but the majority have suffered alteration
+            </p>
+            <a href="#" class="btn">Add to cart</a>
+            <span class="price">$12.99</span>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="images\main-pic.jpg" alt="" />
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>Delicious food</h3>
+            <p>
+              There are many variations of passages of Lorem Ipsum available,
+              but the majority have suffered alteration
+            </p>
+            <a href="#" class="btn">Add to cart</a>
+            <span class="price">$12.99</span>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="images\main-pic.jpg" alt="" />
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>Delicious food</h3>
+            <p>
+              There are many variations of passages of Lorem Ipsum available,
+              but the majority have suffered alteration
+            </p>
+            <a href="#" class="btn">Add to cart</a>
+            <span class="price">$12.99</span>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="images\main-pic.jpg" alt="" />
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>Delicious food</h3>
+            <p>
+              There are many variations of passages of Lorem Ipsum available,
+              but the majority have suffered alteration
+            </p>
+            <a href="#" class="btn">Add to cart</a>
+            <span class="price">$12.99</span>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="images\main-pic.jpg" alt="" />
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>Delicious food</h3>
+            <p>
+              There are many variations of passages of Lorem Ipsum available,
+              but the majority have suffered alteration
+            </p>
+            <a href="#" class="btn">Add to cart</a>
+            <span class="price">$12.99</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="review" id="review">
+      <h3 class="sub-heading">customer's review</h3>
+      <h1 class="heading">what they say</h1>
+      <div class="review-slider">
+        <div class="wrapper swiper-wrapper">
+          <div class="item swiper-slide">
+            <i class="fas fa-quote-right"></i>
+            <div class="user">
+              <img src="images\man.jpeg" alt="" />
+              <h3>John Deo</h3>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+            </div>
+            <p>
+              If you are going to use a passage of Lorem Ipsum, you need to be
+              sure there isn't anything embarrassing
+            </p>
+          </div>
+
+          <div class="item swiper-slide">
+            <i class="fas fa-quote-right"></i>
+            <div class="user">
+              <img src="images\man.jpeg" alt="" />
+              <h3>John Deo</h3>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+            </div>
+            <p>
+              If you are going to use a passage of Lorem Ipsum, you need to be
+              sure there isn't anything embarrassing
+            </p>
+          </div>
+
+          <div class="item swiper-slide">
+            <i class="fas fa-quote-right"></i>
+            <div class="user">
+              <img src="images\man.jpeg" alt="" />
+              <h3>John Deo</h3>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+            </div>
+            <p>
+              If you are going to use a passage of Lorem Ipsum, you need to be
+              sure there isn't anything embarrassing
+            </p>
+          </div>
+
+          <div class="item swiper-slide">
+            <i class="fas fa-quote-right"></i>
+            <div class="user">
+              <img src="images\man.jpeg" alt="" />
+              <h3>John Deo</h3>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+            </div>
+            <p>
+              If you are going to use a passage of Lorem Ipsum, you need to be
+              sure there isn't anything embarrassing
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="order" id="order">
+      <h3 class="sub-heading">Order now</h3>
+      <h1 class="heading">Free and fast</h1>
+
+      <form action="">
+        <div class="inputBox">
+          <div class="input">
+            <span>your name</span>
+            <input type="text" placeholder="enter your name" />
+          </div>
+          <div class="input">
+            <span>your number</span>
+            <input type="text" placeholder="enter your number" />
+          </div>
+        </div>
+
+        <div class="inputBox">
+          <div class="input">
+            <span>your order</span>
+            <input type="text" placeholder="enter food name" />
+          </div>
+          <div class="input">
+            <span>additional food</span>
+            <input type="test" placeholder="extra with food" />
+          </div>
+        </div>
+
+        <div class="inputBox">
+          <div class="input">
+            <span>how much</span>
+            <input type="number" placeholder="how many orders" />
+          </div>
+          <div class="input">
+            <span>date and time</span>
+            <input type="datetime-local" />
+          </div>
+        </div>
+
+        <div class="inputBox">
+          <div class="input">
+            <span>your address</span>
+            <textarea
+              name=""
+              placeholder="enter your address"
+              cols="30"
+              rows="10"
+            ></textarea>
+          </div>
+          <div class="input">
+            <span>your message</span>
+            <textarea
+              name=""
+              placeholder="enter your message"
+              cols="30"
+              rows="10"
+            ></textarea>
+          </div>
+        </div>
+
+        <input type="submit" value="order now" class="btn" />
+      </form>
+    </section>
+
+    <section class="footer">
+      <div class="box-container">
+        <div class="box">
+          <h3>Locations</h3>
+          <a href="#">India</a>
+          <a href="#">Japan</a>
+          <a href="#">Russia</a>
+          <a href="#">Usa</a>
+          <a href="#">France</a>
+        </div>
+
+        <div class="box">
+          <h3>Quick links</h3>
+          <a href="#">Home</a>
+          <a href="#">Dishes</a>
+          <a href="#">About</a>
+          <a href="#">Menu</a>
+          <a href="#">Review</a>
+          <a href="#">Order</a>
+        </div>
+
+        <div class="box">
+          <h3>Contact info</h3>
+          <a href="#">+123-456-78</a>
+          <a href="#">+11-647-8373</a>
+          <a href="#">shaika@gmail.com</a>
+          <a href="#">ana@gmail.com</a>
+          <a href="#">mumbai, india -400104</a>
+        </div>
+
+        <div class="box">
+          <h3>Follow us</h3>
+          <a href="#">facebook</a>
+          <a href="#">twitter</a>
+          <a href="#">instagram</a>
+          <a href="#">linkedin</a>
+        </div>
+      </div>
+      <div class="credit">copyright @ 2024 by <span>Marina Stojanovic</span></div>
+    </section>
+
+    <div class="loader-container">
+      <img src="Spinning hamburger." alt="" />
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="app.js"></script>
+  </body>
+</html>
